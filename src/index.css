@@ -1,0 +1,45 @@
+.cp-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-1{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.cp-para{
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.cp-para p{
+    font-size: 2.5rem;
+}
+
+.cp-pick{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 7px;
+}
+
+.cp-picker input:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+.cp-picker footer{
+    position:fixed;
+    bottom: 0%;
+}
